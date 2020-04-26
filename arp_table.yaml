@@ -1,0 +1,58 @@
+JunOS_1:
+-   age: 988.0
+    interface: fxp0.0
+    ip: 192.168.122.1
+    mac: 52:54:00:84:0A:AF
+S3:
+-   age: 0.0
+    interface: Vlan1
+    ip: 192.168.122.1
+    mac: 52:54:00:84:0A:AF
+-   age: 0.0
+    interface: Vlan1
+    ip: 192.168.122.130
+    mac: AA:BB:CC:80:03:00
+S2:
+-   age: 0.0
+    interface: Vlan1
+    ip: 192.168.122.1
+    mac: 52:54:00:84:0A:AF
+-   age: 0.0
+    interface: Vlan1
+    ip: 192.168.122.120
+    mac: AA:BB:CC:80:02:00
+R1:
+-   age: 0.0
+    interface: Ethernet0/0
+    ip: 192.168.122.1
+    mac: 52:54:00:84:0A:AF
+-   age: 0.0
+    interface: Ethernet0/0
+    ip: 192.168.122.140
+    mac: AA:BB:CC:00:04:00
+S1:
+-   age: 0.0
+    interface: Vlan1
+    ip: 192.168.122.1
+    mac: 52:54:00:84:0A:AF
+-   age: 0.0
+    interface: Vlan1
+    ip: 192.168.122.110
+    mac: AA:BB:CC:80:01:00
+S4:
+-   age: 0.0
+    interface: Vlan1
+    ip: 192.168.122.1
+    mac: 52:54:00:84:0A:AF
+-   age: 9.0
+    interface: Vlan1
+    ip: 192.168.122.120
+    mac: AA:BB:CC:80:02:00
+-   age: 16.0
+    interface: Vlan1
+    ip: 192.168.122.200
+    mac: 0C:25:95:CB:FD:00
+-   age: 0.0
+    interface: Vlan1
+    ip: 192.168.122.210
+    mac: 0C:25:95:DA:80:01

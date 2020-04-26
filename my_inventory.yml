@@ -1,0 +1,42 @@
+Devices :
+  S1 :
+    hostname : 192.168.122.110
+    username : admin
+    password : admin
+    type : ios
+
+  S2 :
+    hostname : 192.168.122.120
+    username : admin
+    password : admin
+    type : ios
+
+  S3 :
+    hostname : 192.168.122.130
+    username : admin
+    password : admin
+    type : ios
+  
+  S4 :
+    hostname : 192.168.122.210
+    username : admin
+    password : admin
+    type : ios
+
+  R1 :
+    hostname : 192.168.122.140
+    username : admin
+    password : admin
+    type : ios
+  
+  JunOS_1 :
+    hostname : 192.168.122.200
+    username : talha
+    password : admin123
+    type : junos
+
+  CSR1000v :
+    hostname : 192.168.122.190
+    username : admin
+    password : admin
+    type : ios

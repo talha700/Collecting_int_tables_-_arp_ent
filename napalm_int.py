@@ -1,13 +1,17 @@
 from napalm import get_network_driver
-import json
 import yaml
+from concurrent.futures import ThreadPoolExecutor
+
 
 with open("my_inventory.yml") as f:
         data = yaml.safe_load(f)
 
-
+all_devices = []
 for k,v in data["Devices"].items():
-    if k != "CSR1000v":
+   all_devices.append({k:v})
+
+def main(devices):
+    for k,v in devices.items():
         try:
             driver = get_network_driver(v["type"])
 
@@ -33,3 +37,7 @@ for k,v in data["Devices"].items():
         except:
             print(f'Failed for {k}')
 
+
+if __name__ == "__main__":
+    with ThreadPoolExecutor() as t:
+        exe = t.map(main,all_devices)
